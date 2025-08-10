@@ -1,0 +1,283 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+        padding: 0 16px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: -60px;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .order-form {
+        max-width: 380px;
+    }
+
+    .order-btn {
+        width: 260px;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .features-wrapper{
+        display: block;
+    }
+
+    .features-list li{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .delivery-image img {
+        max-width: 380px;
+        border-radius: 20px;
+    }
+
+    .delivery-info {
+        margin-bottom: 40px;
+    }
+
+    .veg-rev2{
+        display: none;
+    }
+
+    .veg-rev1{
+        display: none;
+    }
+
+    .reviews-title{
+       font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .features-image img {
+        max-width: 3240px;
+    }
+
+    .features-list{
+        margin-left: 50px;
+    }
+
+    .features .title{
+        font-size: 24px;
+    }
+
+    .features .subtitle{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cta{
+        margin-bottom: 60px;
+    }
+
+    .benefits-list li{
+        margin-bottom: 20px;
+    }
+
+    .section-title-benefits {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 44px;
+    }
+
+    .kitchen-content {
+        gap: 30px;
+        display: block;
+    }
+
+    .text-content ul li{
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 44px;
+    }
+
+    .text-content h3{
+        width: auto;
+    }
+
+    .hero-screen{
+        background-image: url("../img/540-back.png");
+    }
+
+    .hero-text p{
+        width: auto;
+        font-size: 18px;
+        padding: 40px;
+        line-height: 30px;
+        margin-top: -18px;
+        margin-bottom: 20px;
+
+    }
+
+    .title-hero{
+        font-size: 24px;
+        line-height: 42px;
+    }
+
+    .hero-text{
+        margin-left: 0;
+    }
+
+    .nav ul{
+        gap: 16px
+    }
+
+    .nav a{
+        font-size: 12px;
+    }
+
+    .price{
+        margin-top: 400px;
+    }
+
+    .delivery-title{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        padding: 0 12px;
+        max-width: 340px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .hero img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .section img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .order-form {
+        max-width: 100%;
+    }
+
+    .order-form input,
+    .order-form select {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .order-btn {
+        width: 100%;
+        font-size: 15px;
+        padding: 11px;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    header nav ul {
+        gap: 8px;
+    }
+
+    .hero {
+        padding: 15px 0;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+
+    .section {
+        padding: 15px 0;
+    }
+
+    .section img {
+        max-width: 100%;
+    }
+
+    .order-form input,
+    .order-form select {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .order-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    footer .footer-content {
+        gap: 10px;
+    }
+}
