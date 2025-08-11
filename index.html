@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    <?php if (!empty($config)) include "./meldonium/include-head.php" ?>
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -17,6 +20,8 @@
 
 </head>
 <body>
+
+<?php if (!empty($config)) include "./meldonium/include-body-start.php" ?>
 
 <div class="container hero-screen">
 
@@ -73,10 +78,10 @@
         <div class="container">
             <h2 class="section-title-benefits">ІДЕАЛЬНА НАРІЗКА ЗА КІЛЬКА СЕКУНД!</h2>
 
-            <div class="slicer-content">
-                <div class="video-box">
-                    <img src="img/slicer-video.jpg" alt="Подрібнювач">
-                    <div class="play-button">&#9658;</div>
+            <div class="benefits-content">
+                <div class="benefits-video">
+                    <video src="img/chopper%20pot_2.mp4" controls></video>
+                    <div class="play-button"></div>
                 </div>
 
                 <ul class="benefits-list">
@@ -133,7 +138,7 @@
             </h2>
             <img class="veg-rev1" src="img/rev-carrot.png">
 
-            <div class="reviews-wrapper">
+            <div class="reviews-wrapper owl-carousel">
 
                 <!-- Review 1 -->
                 <div class="review-card">
@@ -243,5 +248,9 @@
     <script src="js/maskedinput.js" type="text/javascript"></script>
 
 </div>
+
+<?php if (!empty($config)) include "./meldonium/include-body-end.php" ?>
+
+
 </body>
 </html>
